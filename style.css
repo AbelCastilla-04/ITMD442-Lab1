@@ -5,31 +5,38 @@
 
 .navbar {
     background: #E6D8C0;
-    color: #B8C3FB;
-    padding: 15px 40px;
+    color: #14DBD6;
+    padding: 25px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-  
+
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 70px;
 }
-  
+
+.nav-links li {
+    padding: 10px 0;         
+    font-size: 18px;          
+}
+
 .nav-links a {
     color: #FAB6FF;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 500;
 }
-  
+
 .btn-outline {
-    border: 1px solid #B8C3FB;
-    padding: 6px 12px;
-    border-radius: 4px;
+    border: 2px solid #B8C3FB;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 18px;
 }
-  
+
 .main {
     display: flex;
     justify-content: space-between;
